@@ -1,0 +1,17 @@
+dubbo:
+  scan:
+    base-packages: com.springcloud.dubbo.provider.service
+  #    http   RMI  Redis   H  dubbo
+  protocol:
+    name: dubbo
+    port: -1
+
+  registry:
+    #  配置注册中心
+    address: nacos://112.74.42.138:8848
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
