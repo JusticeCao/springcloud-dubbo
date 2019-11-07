@@ -6,8 +6,6 @@ import com.springcloud.dubbo.dubboapi.OrderService;
 import com.springcloud.dubbo.dubboapi.dto.OrderDto;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
